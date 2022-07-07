@@ -1,0 +1,68 @@
+.grid{
+  width:360px;
+  height: 360px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn{
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: black;
+  color: #fff;
+  border-radius: .5rem;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+.btn:hover{
+  background-color: green;
+}
+
+.grid div{
+  width: 40px;
+  height: 40px;
+}
+
+.ending-block{
+  background-color: red;
+}
+
+.starting-block{
+  background-color: blue;
+}
+
+/* .log-left,
+.log-right{
+background-color: lightblue;
+} */
+
+/* .car-left,
+.car-right{
+  background-color: lightgray;
+} */
+
+
+
+.l1, .l2, .l3{
+  background-color: brown;
+}
+
+.l4, .l5{
+  background-color: lightblue;
+}
+
+.c1 {
+  background-color: black;
+}
+
+
+.c3,
+.c2{
+  background-color: lightgray;
+}
+
+.frog{
+  background-color: green;
+}
